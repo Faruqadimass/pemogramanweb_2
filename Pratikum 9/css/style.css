@@ -1,0 +1,104 @@
+/* Menggunakan variabel untuk mempermudah perubahan global */
+:root {
+    --welcome-bg-color: #e190f1; /* Warna latar belakang untuk welcome-section */
+    --primary-btn-bg-color: #4f24b3; /* Warna tombol primary */
+    --primary-btn-hover-bg-color: #4e9b95; /* Warna tombol primary saat hover */
+    --btn-border-color: #1f3798; /* Warna border untuk tombol */
+}
+
+/* Mengatur tombol primary */
+.btn-primary {
+    background-color: var(--primary-btn-bg-color);
+    border: 1px solid var(--btn-border-color);
+}
+
+/* Mengatur tombol primary saat hover */
+.btn-primary:hover {
+    background-color: var(--primary-btn-hover-bg-color);
+    border: 1px solid var(--primary-btn-hover-bg-color);
+}
+
+/* Tombol dengan gaya subtle */
+.btn-primary-subtle {
+    background-color: var(--primary-btn-hover-bg-color);
+    border: 1px solid var(--primary-btn-hover-bg-color);
+}
+
+/* Mengatur welcome-section */
+.welcome-section {
+    background-color: var(--welcome-bg-color); /* Menggunakan variabel warna latar belakang */
+    padding: 30px; /* Memberikan jarak dalam */
+    border-radius: 15px; /* Membuat sudut membulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan */
+}
+
+/* Styling untuk form input di dalam welcome-section */
+.welcome-section input.form-control {
+    margin-bottom: 15px;
+}
+
+/* Styling untuk footer */
+footer {
+    background-color: #f8f9fa; /* Warna latar belakang footer */
+    color: #6c757d; /* Warna teks */
+}
+
+/* Mengatur tampilan footer */
+footer .container {
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Styling untuk setiap card di dalam row */
+.card {
+    border-radius: 8px; /* Sudut membulat pada card */
+    overflow: hidden; /* Memastikan isi card tidak keluar dari batas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bayangan halus pada card */
+}
+
+/* Styling gambar dalam card */
+.card-img-top {
+    height: 200px; /* Menentukan tinggi gambar */
+    object-fit: cover; /* Memastikan gambar terpotong dengan rapi */
+}
+
+/* Styling untuk card body */
+.card-body {
+    padding: 20px; /* Menambahkan padding pada card body */
+}
+
+/* Mengatur ukuran judul card */
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Mengatur teks harga pada card */
+.card-text {
+    font-size: 14px;
+    color: #333; /* Warna teks harga */
+}
+
+/* Styling untuk tombol add to chart */
+.card .btn-primary {
+    background-color: var(--primary-btn-bg-color);
+    border: 1px solid var(--btn-border-color);
+}
+
+footer {
+    background-color: #90a8f1; /* Warna latar belakang footer */
+    color: #4e545a; /* Warna teks footer */
+    padding: 10px 0; /* Memberikan jarak atas dan bawah */
+    text-align: center; /* Memastikan teks berada di tengah */
+}
+
+footer .container {
+    font-size: 14px; /* Ukuran font */
+    padding: 10px; /* Padding untuk kontainer */
+    max-width: 1200px; /* Lebar maksimum kontainer */
+    margin: 0 auto; /* Memastikan kontainer berada di tengah */
+}
+
+footer .container p {
+    margin: 0; /* Menghilangkan margin pada paragraf */
+}
